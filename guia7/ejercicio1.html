@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Cambio de clases CSS dinámico</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/headings.css" />
+    <link rel="stylesheet" href="css/button.css" />
+    <script src="js/CSSClass.js"></script>
+    <script src="js/classname.js"></script>
+</head>
+
+<body>
+    <header>
+        <p id="head">
+            La literatura de ciencia ficción ha intentado imaginar cómo sería el futuro en un mundo que puede nunca lleguemos a
+            conocer. Aunque lo habitual es pensar en robots y naves espaciales, este género tiene un espectro mucho más amplio. Hoy
+            hemos querido reunir cinco libros de ciencia ficción clásicos que deberías leer. Pese a llevar muchos años publicados,
+            fueron los que asentaron las bases de un género. Algunos de ellos han servido de referencia para algunos superventas que
+            arrasan en la actualidad.
+        </p><br><br><br>
+    </header>
+    <section>
+        <article>
+            <form name="frmclass">
+                <label>Estilo:</label>
+                <select name="classes">
+                    <option value="" selected="selected">(Escoja un estilo)</option>
+                    <option value="formal">Tipo de fuente</option>
+                    <option value="letterpress">Cambiar Color</option>
+                    <option value="offset">Alinear</option>
+                </select><br />
+                <input type="button" name="agregar" id="add" value="Agregar" />
+                <input type="button" name="eliminar" id="remove" value="Eliminar" />
+            </form>
+        </article>
+    </section>
+</body>
+</html>

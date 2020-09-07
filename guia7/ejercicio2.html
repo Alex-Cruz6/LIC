@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Gráficos de barras con JavaScript</title>
+    <meta charset="utf-8" />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="css/graficas.css" />
+</head>
+<body>
+    <center>
+        <form id="form-param">
+            <div class="container">
+                <div>
+                    <h3>Centro de Control</h3>
+                    <input type="text" class="parametro" placeholder="Nombre">
+                    <input type="number" class="valor" placeholder="valor">
+                </div>
+                <div>
+                    <input type="text" class="parametro" placeholder="Nombre">
+                    <input type="number" class="valor" placeholder="valor">
+                </div>
+            </div>
+            <div class="buttons">
+                <button type="button" class="addParam">Agregar Parametro</button>
+                <button type="button" class="showResults">Mostrar Resultados</button>
+            </div>
+        </form>
+    </center>
+    <div id="grafico"></div>
+    <script src="js/graficas.js"></script>
+</body>
+</html>
