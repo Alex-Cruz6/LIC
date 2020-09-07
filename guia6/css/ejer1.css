@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: khaki;
+}
+#control{
+    border: 2px solid black;
+    background-color: rgb(132, 166, 230);
+    width: 25%;
+    height: 215px;
+    font-family: sans-serif;
+    size: 15px;
+    float: left;
+    margin: 20px;
+    padding: 10px;
+}
+#actualizar{
+    border: 2px solid black;
+    background-color: rgb(132, 166, 230);
+    width: 25%;
+    height: 235px;
+    font-family: sans-serif;
+    size: 15px;
+    margin: 20px;
+    float: left;
+    padding: 10px;
+}
+#tabla, table{
+    margin: 60px auto;
+    background: #b9c9fe;
+    color: #039;
+    font-size: 13pt;
+    border-collapse: collapse
+}
+table th{
+    background: rgba(13, 71, 161, 1);
+    padding: 10px;
+    color: white;
+}
+table td{
+    border: 1px solid rgb(121, 112, 112);
+    padding: 10px;
+}

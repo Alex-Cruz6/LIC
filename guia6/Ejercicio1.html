@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/ejer1.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla Dinámica</title>
+</head>
+<body>
+    <div id="control"><br>
+        <h2>Tabla Dinámica</h2><br>
+        <label for="">Ingrese las columnas de la tabla</label>
+        <input type="number" name="columnas" id="columnas" placeholder="Ingrese las columnas" min="0" required><br><br>
+        <label for="">Ingrese las Filas de la tabla</label>
+        <input type="number" name="filas" id="filas" min="0" placeholder="Ingrese las Filas" required><br><br>
+        <button type="submit" id="crear">Enviar</button>
+    </div>
+    <div id="actualizar">
+        <h2>Actualizar valor de la Tabla</h2><br>
+        <label for="">Ingrese la columna a actualizar</label><br>
+        <input type="number" name="columnasAct" id="columnasAct" placeholder="Ingrese las columnas"><br><br>
+        <label for="">Ingrese la fila a actualizar</label><br>
+        <input type="number" name="filasAct" placeholder="Ingrese las Filas" id="filasAct"><br><br>
+        <label for="">Ingrese el valor a modificar</label><br>
+        <input type="number" name="ValorAct" placeholder="Ingrese el valor a modificar" id="ValorAct"><br><br>
+        <button type="submit" id="actuali">Enviar</button>
+    </div><br><br>
+    <div id="Tabla">
+
+    </div>
+    <script src="js/Ejer1.js"></script>
+</body>
+</html>
