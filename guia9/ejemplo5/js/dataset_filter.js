@@ -35,7 +35,7 @@ function ajax_response(ajaxobj) {
         g_booklist.sort(sortByTitle);
         g_searchstr = '';
         for (var i = 0; i < g_booklist.length; i++)
-            g_searchstr += ' ' + g_booklist[i].author + '| '+g_booklist[i].title+'[| ['+i+'] |]';
+            g_searchstr += ' ' + g_booklist[i].author + '|' + g_booklist[i].title + '[|[' + i + ']|]';
         g_searchstr = g_searchstr.toLowerCase();
         showlist(g_booklist);
     }
