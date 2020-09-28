@@ -1,0 +1,50 @@
+{
+    "title": "Lad mejores peliculas",
+    "link": "https://pelisplus.me/",
+    "description": "Peliculas",
+    "language": "es",
+    "items": [
+        {
+            "id": "1",
+            "title1": "Interestelar",
+            "protagonist1": "Protagonistas: Matthew McConaughey, Anne Hathaway",
+            "description1": "Sinopsis: Gracias a un descubrimiento, un grupo de científicos y exploradores, encabezados por Cooper, se embarcan en un viaje espacial para encontrar un lugar con las condiciones necesarias para reemplazar a la Tierra y comenzar una nueva vida allí.",
+            "director1": "Director: Christopher Nolan"
+        },
+        {
+            "id": "2",
+            "title2": "Atracción Peligrosa",
+            "protagonist2": "Protagonistas: Ben Affleck, Blake Lively, Jeremy Renner",
+            "description2": "Sinopsis: La gerente de un banco no se da cuenta de que su nuevo y encantador galán es el mismo hombre que unos días antes la mantuvo secuestrada durante un robo.",
+            "director2": "Director: Ben Affleck"
+        },
+        {
+            "id": "3",
+            "title3": "Lagrimas del Sol",
+            "protagonist3": "Protagonistas: Bruce Willis, Monica Bellucci",
+            "description3": "Sinopsis: Un comando americano y sus hombres tratan de llevar a una doctora y a refugiados africanos a un lugar seguro.",
+            "director3": "Director: Antoine Fuqua   "
+        },
+        {
+            "id": "4",
+            "title4": "Misión Imposible",
+            "protagonist4": "Protagonistas: Tom Cruise, Rebecca Ferguson",
+            "description4": "Sinopsis: Misión: Imposible es una serie de películas de acción estadounidense basada en la serie televisiva del mismo nombre. La serie es coproducida y protagonizada por Tom Cruise como Ethan Hunt, un agente de la ficticia Fuerza de Misiones Imposibles.",
+            "director4": "Director: Brian De Palma"
+        },
+        {
+            "id": "5",
+            "title5": "Rambo",
+            "protagonist5": "Protagonistas: Sylvester Stallone, Richard Crenna",
+            "description5": "Sinopsis: Rambo es una popular saga de películas de acción protagonizadas por Sylvester Stallone. Está basada en los personajes creados por el novelista David Morrell en su novela First Blood, que también es el título original de la primera película de la saga.",
+            "director5": "Directores: Sylvester Stallone, George P. Cosmatos, Ted Kotcheff, Adrian Grunberg, Peter MacDonald"
+        },
+        {
+            "id": "6",
+            "title6": "Robocop",
+            "protagonist6": "Protagonistas: Peter Weller, Nancy Allen",
+            "description6": "Sinopsis: Un grupo de científicos utiliza los restos destrozados de un policía muerto para crear al mejor luchador contra el crimen: un robot indestructible. El experimento parece un éxito, pero el policía, a pesar de estar muerto, conserva la memoria y decide vengarse de sus asesinos.",
+            "director6": "Director: Paul Verhoeven"
+        }
+    ]
+}
