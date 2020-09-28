@@ -1,3 +1,9 @@
+function init(){
+    var inicio = document.getElementById("load");
+    var write = document.getElementById("search");
+    inicio.onclick = get_booklist;
+    write.onkeyup = searchkeyup;  
+}
 var g_booklist = new Array();
 var g_searchstr = '';
 var g_lastcount = 0;
@@ -68,13 +74,13 @@ function createBookElement(bookobj) {
 function createLinkElement(url, text) {
     var element;
     try {
-        element = document.createElement("<a href='" + url + "'>");//IE
+        element = document.createElement("<p>" + url + "<p/>");//IE
     } catch (e) {
-        element = document.createElement("a");
-        element.setAttribute('href', url);
+        element = document.createElement("p");
+        element.setAttribute('id', url);
     }
     element.appendChild(document.createTextNode(text));
-    return element; 
+    return element;
 }
 function searchkeyup(e) {
     e = fixevent(e);
@@ -150,4 +156,10 @@ function print_r(obj) {
         str2 += "Array[" + s + "]" + obj[s] + "\n";
     }
     return str2;
+}
+if (window.addEventListener) {
+    window.addEventListener("load", init, false);
+}
+else if (window.attachEvent) {
+    window.attachEvent("load", init);
 }

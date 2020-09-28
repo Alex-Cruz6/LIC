@@ -1,3 +1,13 @@
+ul{
+	border:1px solid #99f;
+	width:600px;
+	height:330px;
+}
+div{
+	width:600px;
+	height:70px;
+	font-family:helvetica;
+}
 ul.bacon {
 	list-style-type: none;
 	margin: 0px 0px 0px 0px;
@@ -12,6 +22,6 @@ ul.bacon li {
 	border: 1px solid #aaa;
 	background: #ddd;
 	width:594px;
-	height:16px;
+	height:25px;
 	color:#000;
 }
