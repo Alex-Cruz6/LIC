@@ -38,7 +38,7 @@ ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
-img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; width: 25%; float: left; margin: 15px;}
 svg:not(:root) { overflow: hidden; }
 figure { margin: 0; }
 
@@ -56,7 +56,6 @@ input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-b
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; resize: vertical; }
-input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 table { border-collapse: collapse; border-spacing: 0; }
@@ -84,7 +83,6 @@ pre .dec { color: #98fb98 } /* decimal         - lightgreen */
 ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
 li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
 /* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
   pre { background-color: none }
@@ -117,9 +115,17 @@ pre, pre span{
 	font-size: 30px;
 }
 
+h1{
+	font-size: 30px;
+}
+
 section{
 	overflow:auto;
 box-shadow: inset 0 0 0px 5px rgb(0,0,0);
+}
+
+p{
+	font-size: 20px;
 }
 
 section article{
@@ -372,7 +378,6 @@ input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-b
 input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button { -webkit-appearance: none; }
 button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; resize: vertical; }
-input:valid, textarea:valid {  }
 input:invalid, textarea:invalid { background-color: #f0dddd; }
 
 table { border-collapse: collapse; border-spacing: 0; }
@@ -400,7 +405,6 @@ pre .dec { color: #98fb98 } /* decimal         - lightgreen */
 ol.linenums { margin-top: 0; margin-bottom: 0; color: #AEAEAE } /* IE indents via margin-left */
 li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none }
 /* Alternate shading for lines */
-li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 @media print {
   pre { background-color: none }
