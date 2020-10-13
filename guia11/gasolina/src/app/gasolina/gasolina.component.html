@@ -1,0 +1,14 @@
+<div class="header">
+  <h1>Gasolinera Puma</h1>
+  <p>Ingrese los datos solicitados para realizar su compra</p>
+</div>
+<label>Valor:</label>
+<input type="text" [(ngModel)]="galon">
+<label>Tipo de gasolina:</label>
+<select [(ngModel)]="opcionSeleccionado" (change)="capturar()">
+  <option value="Selecciona">Selecciona</option>
+  <option *ngFor="let u of unidades" value="{{u}}">
+    {{u}}
+  </option>
+</select>
+<label [hidden]="opcionSeleccionado == 'Selecciona'">El valor a pagar es: ${{ valorGaso }}</label>

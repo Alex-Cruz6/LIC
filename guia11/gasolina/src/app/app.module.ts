@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { SueldoBaseComponent } from './sueldo-base/sueldo-base.component';
+import { GasolinaComponent } from './gasolina/gasolina.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SueldoBaseComponent
+    GasolinaComponent
   ],
   imports: [
     BrowserModule,
